@@ -76,41 +76,30 @@
 }
 .personal-description{
     display: flex;
-    flex-basis: row;
-    width: 100%;
+    
     padding-top: 5%;
     padding-left: 2%;
-    padding-bottom: 5%;
 }
 .about-me{
-    width: 69%;
-    display: flex;
-    flex-direction: column;
+    width: 50%;   
     text-align: center;
-    justify-content: center;
+    
 }
 .about-me h2{
     color: #00b39b;
 }
 .about-me p{
-    width: 100%;
     font-weight: bold;
 }
 .personal-pic{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 50%;
 }
 .personal-pic img{
-    width: 300px;
-    height: 300px;
-    padding-left: 2%;
-    border-radius: 50%;
+    width: 70%;    
     border: 10px solid #00b39b;
 }
 .contacts-responsabilities{
-    width: 50%;
+   
     padding-left: 2%;
 }
 .contacts-responsabilities h2{
@@ -167,4 +156,32 @@
 }
 #carouselExampleIndicators{
     width: 70%;
+}
+/*--------------------MAX 900PX------------------------------------------------------*/
+
+@media screen and (max-width: 900px)
+{
+h2
+{
+    font-size: 111% !important;
+}
+.about-me p
+{
+    font-size: 70%;
+
+}
+}
+/*--------------------MAX 600PX------------------------------------------------------*/
+
+@media screen and (max-width: 600px)
+{
+h2
+{
+    font-size: 73.5% !important;
+}
+.about-me p
+{
+    font-size: 46.3%;
+
+}
 }
