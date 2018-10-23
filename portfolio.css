@@ -1,0 +1,170 @@
+.first-impact{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.general-pres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.name h1{
+    color: #00b39b;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+}
+.job h6{
+    color: black;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #00b39b;
+    border-top-left-radius: 25%;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact-linkedin{
+    width: 8%;
+    height: 35%;
+}
+.contact-facebook{
+    width: 8%;
+    height: 35%;
+}
+.contact-instagram{
+    width: 8%;
+    height: 35%;
+}
+.contact-google{
+    width: 8%;
+    height: 35%;
+}
+.social1{
+    width: 50%;
+    height: 90%;
+    background: #00b39b;
+}
+.social2{
+    width: 50%;
+    height: 90%;
+    background: #00b39b;
+}
+.social3{
+    width: 55%;
+    height: 100%;
+    background: #00b39b;
+}
+.social4{
+    width: 50%;
+    height: 90%;
+    background: #00b39b;
+}
+.main-style{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.personal-description{
+    display: flex;
+    flex-basis: row;
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-bottom: 5%;
+}
+.about-me{
+    width: 69%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.about-me h2{
+    color: #00b39b;
+}
+.about-me p{
+    width: 100%;
+    font-weight: bold;
+}
+.personal-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.personal-pic img{
+    width: 300px;
+    height: 300px;
+    padding-left: 2%;
+    border-radius: 50%;
+    border: 10px solid #00b39b;
+}
+.contacts-responsabilities{
+    width: 50%;
+    padding-left: 2%;
+}
+.contacts-responsabilities h2{
+    color: #00b39b;
+}
+.contacts-responsabilities h6{
+    font-size: 0.7em;
+}
+.web-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: #00b39b;
+}
+.product{
+    width: 40%;
+    background: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2%;
+    padding: 2%;
+}
+.product-img{
+    width: 100%;
+    border-radius: 2%;
+}
+.product-img img{
+    width: 100%;
+}
+.contact-form{
+    padding-top: 2%;
+    padding-left: 2%;
+    background: whitesmoke;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+}
+.form-group{
+    width: 48%;
+}
+.slide-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#3d83df;
+}
+#carouselExampleIndicators{
+    width: 70%;
+}
